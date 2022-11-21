@@ -1,0 +1,135 @@
+
+Agenda for today
+================
+
+: Eclipse project setup,
+: Introduction to class,main method.
+: Method and Object Reference 
+: Primitive DataTypes
+=========================================================================
+
+
+
+Why we go for Automation testing?
+
+*Automation basically help to redue the manual effort
+*It can save lot of time
+
+why java?
+ java is a independ language 
+ java is the most prefered language
+ it has lot of open source libraries
+ 
+ 
+ why java platform independ?
+ 
+ =========================
+ 
+ all the javafile should be created under:
+ 
+ src/main/java-----Dev code
+ 
+ src/test/java----- testing code
+ 
+ 
+ 
+=========================================================================
+ Package:
+ *It is a folder to organize all your code
+ Naming convention of package is start with lowercase
+ name meaningfull
+ 
+ *Organized
+ *Privacy
+ 
+ 
+ ------------------------------------------------------------------------
+ Class: A testcase java file where you write a logic
+ 
+ * A class is a user defined blue print or templates
+ 
+ what can be inside a class? constructor,method,variable,object.
+ 
+ class name started with uppercase
+ 
+ its PASCAL CASE
+ 
+ ex: SoftwareTest
+ TestLeaf
+ 
+ type main-- press ctrl + space &enter
+ 
+ type syso--press ctrl+space
+ 
+ ---------------------------------------------------------------------------
+  what is method?
+ 
+ Method is a smaller line of code that does some specific operations/action
+ 
+ name convention is starting with lowercase following word should be in uppercase
+ it is CAMEL CASE .
+ 
+ ex: maxMark()
+ firstCode()
+ Method syntax:
+ 
+ Accessmodifier Returntype  name()
+ 
+ public void maxMark(){
+ 
+ }
+ public ---Access modifier ---Specifics who can access
+ void   ---Return type---output of method
+ maxMark ---name--name of the method
+ ()-input arguments----0,1,2,....n
+ 
+ 
+ -------------------------------------------------------------------------------------
+ What is object?
+its an instance
+ 
+ 1. create an object
+ 2. call the method using the object
+ 
+ syntax: classname objectname= new classname();
+ 
+ new--> is keyword 
+ 
+ classname()-- constructor
+ 
+ objectname.method1();
+ ====================================================
+ 
+ 
+ what is primitive datatypes:
+ A primitive type is predefined by the language and is named by a reserved keyword.
+ 
+ we have 8 primitive datatype
+ 
+ 1. INT
+ 2. SHORT
+ 3. FLOAT
+ 4. BOOLEAN
+ 5. CHAR
+ 6. DOUBLE
+ 7. LONG
+ 8. BYTE
+ 
+ only 4- int,float,char,boolean
+ 
+ INT(no decimals)- age-25
+ 
+ FLOAT-FD rate-6.5f or F
+ 
+ char--'d'/'@'/'8'/'W'
+ 'dh'--it will  not take
+ 
+ boolean-yes/no--true/false
+ 
+ short,long ,int
+ 
+ double-10/3=3.3333333
+ 
+ byte
+ 
+ long- 1234568907l or L
