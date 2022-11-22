@@ -1,0 +1,109 @@
+
+Agenda for today
+================
+:Recap
+
+:Primitive DataTypes
+:CONTROL STATEMENTS
+:METHOD SIGNTURE SYNTAX
+
+
+
+OPERATORS:
+
+1.Arithmetic operators
++,-,*,/,%
+
+4+6=10
+9-8=1
+4*5=20
+6/2=3
+6%2=0
+
+2.Relational operators- true/false
+<,>,<=,>=,!=,==
+
+5<6
+
+8>5
+
+5<=6
+
+6>=5
+
+5!=6
+
+5==5
+
+3.Logical operators
+&&(AND), ||(OR)
+
+&&-- both condition must be true
+
+|| --either one is true 
+
+4.Assignment operators
+=
+
+CONTROL STATEMENTS:
+
+*Loop
+*Conditional statement
+
+Loop:
+
+repeat the same logic  to run multiples
+
+doing same thing again and again
+
+two types:
+for loop----whenever you know how many times you need to loop it.
+10 times
+
+while loop---when you do not know how many times we need to loop it, as it based on condition.
+
+
+Conditional statement:
+if-else
+
+if---when condition is true it will print output
+
+else-- when condition get false it  will print out
+
+nested if ---inside the if
+
+
+
+METHOD SIGNTURE SYNTAX:
+public void name(){
+}
+
+1.Access modifier---  specifies who can access
+2. return type--output of method  0 or 1
+3.name-- name of method
+4. input_argument(s): what are the input(s)0,1,2,...
+
+1.ACCESS MODIFIER---  specifies who can access
+
+ex: train
+we have four types:
+1. public -- Anyone can access---
+2.private -- within class only we can are run it--Ac/firstclass
+3.protected --within known circle
+4.default -- people living in the same area
+
+
+2. RETURN TYPE--output of method
+
+can be  any data types-->  primitive  or non-primitive(java/own class)
+
+void -- it will not return any value--syso-----null
+return -- it will return the value
+
+3.NAME-- name of method
+
+
+4. INPUT_ARGUMENT(S): what are the input(s)/0,1,2.......n
+
+
+
