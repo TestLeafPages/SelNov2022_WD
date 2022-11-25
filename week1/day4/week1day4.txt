@@ -1,0 +1,91 @@
+Why we go for automation?
+*reduce the manual efforts
+*save time & money
+
+================================
+what is selenium?
+
+* web based application
+
+
+*open source 
+*execute in multiple platform
+*execute in  multiple browsers
+*java,python,C#,ruby..etc
+=======================================
+cannot do?
+
+*desktop 
+*db
+*mobile
+*window
+*API
+*performance testing
+*IE ---browser---remove
+==============================================
+what are browser we use?
+
+chrome
+edge
+safari
+mozilla
+
+https://www.selenium.dev/
+
+Latest stable version 4.5.3
+
+https://mvnrepository.com/
+
+===========================================================
+every time when we run your selenium code,it will lanuch new browser.
+selenium cannot talk to the existing browser.
+
+What is Webdrivermanager?
+
+webdrivermanager is an open source java library that carries out the management(eg,download,setup and maintenance)
+of the driver required by selenium webdriver.
+
+=================================================
+Basic Loctors:
+
+we have 8 Loctors:
+
+ID----1st 
+NAME-- 2nd
+CLASS NAME--3rd
+LINK TEXT- 4th--------when wehave <a> and hyperlink
+TAG NAME--5th-----
+PARTIAL LINK TEXT--6th--- number
+XPATH--7th
+CSS SELECTOR --8th
+
+Rules for basic locators 
+
+ * *Id locator - if contain with number in value means we should not use it.
+Eg: id="username12" --change browser to  browser
+
+* *Class locator - if contain with white space in the value we should not use it 
+Eg: class="CheckBox  gent input"
+
+* *Name locator - if we have  duplicates  name means we should not use name locator .
+
+
+🚨🚨 important thing you should not do inspect form Automation page.
+
+http://leaftaps.com/opentaps/control/main
+Demosalesmanager
+crmsfa
+
+=========================================================
+Select CLASS:
+dropdown
+
+3 types
+1.select by value
+2.select by visibletext
+3.select by index
+========================================================
+tagname----mandatory---[purble color]
+Attribute-- [orange color] 
+Attribute value---[blue color]
+text --- [black color]
