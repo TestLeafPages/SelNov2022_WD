@@ -1,0 +1,113 @@
+Todays Agenda:
+==============
+
+9.30 to 10.30--> Basic locators & Select class
+10.30 to 11.15--> classroom
+11.15 to 12.30--> Basic xpath
+
+Basic Loctors:
+
+we have 8 Loctors:
+
+ID----1st 
+NAME-- 2nd
+CLASS NAME--3rd
+LINK TEXT- 4th--------when wehave <a> and hyperlink
+TAG NAME--5th-----
+PARTIAL LINK TEXT--6th--- number
+XPATH--7th
+CSS SELECTOR --8th
+
+Rules for basic locators :
+
+ * *Id locator - if contain with number in value means we should not use it.
+Eg: id="username12" --change browser to  browser
+
+* *Class locator - if contain with white space in the value we should not use it 
+Eg: class="CheckBox  gent input"
+
+* *Name locator - if we have  duplicates  name means we should not use name locator .
+
+
+🚨🚨 important thing you should not do inspect form Automation page.
+
+http://leaftaps.com/opentaps/control/main
+Demosalesmanager
+crmsfa
+
+=========================================================
+Select CLASS:
+dropdown
+
+3 types
+1.select by value
+2.select by visibletext
+3.select by index
+========================================================
+tagname----mandatory---[purble color]
+Attribute-- [orange color] 
+Attribute value---[blue color]
+text --- [black color]
+=================================================================
+
+Xpath:
+
+
+Xml path used to navigation through the html structure of the page.
+
+when to use xpath?
+incase we cannot able find  from basic locators.we can use xpath
+
+we have 2 types
+*Absolute xpath
+*Relative xpath
+
+Absolute xpath---direction of the element from the origin to destination.
+
+its will start with '/'
+
+Its the direct way to find the element,but the disadvantage 
+of the absolute xpath is that if there are any changes made 
+in the path of the element then that xpath gets failed.
+
+/html/body/div[2]/div[2]/div/form/p/input
+
+
+
+Relative xpath--- direction from a unique element
+it will start with '//'
+Relative xpath starts from the middle of HTML DOM structure.
+it starts with double forward slash.
+
+syntax:
+
+//tagname[@attribute='attributeValue']
+
+//input[@id='username']
+
+
+*Axes     xpath or Advance xpath
+Axes xpath---direcion based on relationship
+
+
+Basic xPaths:
+1. Attribute based xPath:    - 
+//tagName[@attributeName='attributeValue']
+    Ex://input[@id='username']
+
+
+2. Partial Attribute based xPath:    - 
+//tagName[contains(@attributeName,'attributeValue')]
+    
+
+3.  Text based xPath:    - //tagName[text()='textValue']
+    Ex: //label[text()='Username']
+
+4. Partial Text based xPath:    - //tagName[contains(text(),'textValue')]
+    Ex: //label[contains(text(),'name')]
+
+5. Index/ Collection based xPath:
+    - (//xpath)[index]    - (//input[@class='inputLogin'])[2]
+
+index will start with -- 1
+    - do not  prefer when index goes beyond 5
