@@ -1,0 +1,95 @@
+-Webdriver method:
+
+* getTitle()
+*close()
+*quit()
+*getcurrenturl()
+*snapshot
+
+
+
+
+--OOPs concept
+
+--Inheritance
+---polymorphism
+--Abstraction
+--Encapsulation
+
+
+
+
+OOPs concepts in Java:
+
+Object-oriented programming System (OOPs concepts in Java) is a programming 
+paradigm/model based on the concept of “objects”. Object-Oriented Programming 
+is a methodology to design a program using classes and objects. 
+A class that contains data and methods.
+
+
+What is inheritance in Java?
+Inheritance is an important concept/feature of Object-Oriented Programming. Inheritance 
+is a  mechanism by which one class can acquire/inherit the features(fields and methods) 
+of another class.
+
+We can inherit the features of one class to another class by the use of keyword extends. 
+The extends keyword tells the compiler to inherit the variables and methods of the Base class.
+
+Types of Inheritance in Java
+Single inheritance-2gnr
+Multilevel inheritance---3grnd
+Multiple inheritance----will not support injava classes
+
+1. Single inheritance in java
+
+In single inheritance, there is only one base class, and another is a derived class. 
+The derived class(child) inherits all the properties of the base class(parent). The given above example 
+is a type of single inheritance.
+
+2. Multilevel inheritance in java
+
+In multilevel inheritance, a derived class inherits the properties of a base class, 
+and as well as the derived class also acts as a base class for other classes.
+
+
+Polymorphism in Java:
+=====================
+
+Polymorphism in Java is a concept by which we can perform a single action in different ways. 
+The word “poly” means many, and “morphs” means forms. So, Polymorphism means many forms.
+
+
+Types of Polymorphism in Java
+----------------------------
+Method overloading:
+===================
+Static polymorphism / Compile-time polymorphism/early binding/Static Binding
+
+** when 2 or more method inside the same class
+** Have same signature expect the input argument
+
+eg:
+class{
+ public void add(int a,int b)
+return
+
+public void add(int a,int b,int c)
+syso(a+b+c)
+}
+========================
+public void add(int a,int b)----->we cannot  able use it 
+========================
+
+
+
+Method overriding:
+=================
+Dynamic polymorphism / Runtime polymorphism/ late binding/dynamic binding
+
+** when 2 or more same method are within different classes
+but inherited  between them
+and the signature same
+but the logic is different
+
+Ex: inheritance -->with same method name in 
+
