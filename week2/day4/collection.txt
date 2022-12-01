@@ -1,0 +1,62 @@
+Collection:
+
+collection -- its a interface
+
+
+-Dynami Array(size can grow or shrink)
+-Automated increment / decrement
+-collection can only hold claseses(no primitive data types)
+
+two types
+
+*list
+
+*set
+---------------------------------------------------------------------
+List--list is a child interface of collection.
+it is an ordered collection of object in which duplicate values can be stored.
+list maintain the insertion order.
+
+Arraylist: its based on index values
+
+Linkedlist: its based on node values
+
+properties:
+* list allow duplicates
+* list maintains the insertion order
+
+ArrayList:  An ArrayList class is a resizable array, which is present in the 
+java. util package. While built-in arrays have a fixed size, 
+ArrayLists can change their size dynamically. Elements can be added and 
+removed from an ArrayList whenever there is a need.
+
+
+syntax:
+
+List<wapper class> objectname= new ArrayList<wapper class>();
+
+<>------ generic to restric the datatype
+
+what is wapper class?
+
+Wrapper class is a class whose object wraps or contains primitive data types.
+When we create an object to a wrapper class, it contains a field and in this field,
+we can store primitive data types. In other words, we can wrap a primitive value 
+into a wrapper class object.
+
+Method:
+1.add()-
+
+2.remove()-
+
+3.size()-
+
+4.IsEmpty()-
+
+5.contains()-
+
+6.clear()-
+
+7.get()-
+
+set

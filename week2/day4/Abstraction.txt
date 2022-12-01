@@ -1,0 +1,41 @@
+Abstraction:
+Abstraction means hiding the complexity and only showing the essential
+feature of the object.
+
+Hiding implementation details and showing functionality to the user.
+
+eg:mobile,ATM
+
+1.Interface-----100% unimplementation
+
+2.Abstract class----both implementation & unimplementation
+
+3.Concrete class----full implementation
+
+
+keywords:
+
+class to class ---- 
+class to interface ---- 
+abstract class to class ---- 
+interface  to interface ---- 
+
+how we can acheive the abstraction:
+we have two ways
+1. interface---- desgin document
+
+like buleprint or desgin paper
+its 100% unimplementation
+its should not body(code) only we can have only method.
+
+keyword-- implements
+
+2. abstract class---
+its partial Implementation
+we have both implementation and unimplementation method.
+
+A class that is declared with an abstract keyword is known as an abstract class. 
+An abstract class can have abstract methods (methods without the body) 
+and concrete/non-abstract methods (Methods with the body) also.
+
+
