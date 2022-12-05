@@ -1,0 +1,77 @@
+
+Agenda for Today:
+   9.30  to 9.45  ---Recap
+   9.45  to 10.15 ---List & snapshot
+   10.15 to 10.30 ---Classroom
+   10.30 to 11.00----Set
+   11.00 to 11.40 ---Classroom+ break
+   11.40 to 12.30 ---Java keys and Constructor
+   
+
+
+findElement ----->webElement
+findElements-----> list<webElement>
+
+List:
+=====
+findElements-----> list<webElement>
+
+
+
+Set:
+====
+
+  -Interface
+  -It cannot  hold duplicate data/only Unique
+  
+  
+Implementation class:
+=====================
+1. Hash set----random order
+2. LinkHash set---insertion order
+3. Tree set---Ascii values
+  
+ Method of set:
+=================
+    1) size()-> Number of items in the set
+    2) add()->  to add the data in a set
+    3) remove() -> to remove the data / element
+    4) get() - > this method is not available  because of the implementation class(index differs)
+	5) Collections.sort()-->
+
+
+list{1,4,7,7,8,5,9,3,67,867,89}
+get(10)
+
+set{1,4,7,8,5,9,3,67,867,89}
+
+get(9)
+	
+	
+	
+	
+  
+  Java Keywords:
+  ==============
+  
+  1.static
+  2.this
+  3.super
+  4.final
+  
+  static-----
+  1.static will be used for common data
+  2.only one copy will be there for a static data
+  3.if we updted the static data,it will be overwrite the old values with the new values.
+  
+  
+  Constructor:
+  ============
+  
+  two types:
+  1.default constructor
+  2.parameterized constructor
+  
+  constructor overloading
+  
+  we can able call one constructor from another constructor is called constructor chaining
