@@ -1,0 +1,53 @@
+Agenda for Today:
+   9.30 to 9.45  ---Recap
+   9.45 to 10.45 ---WebTable
+   10.45 to 11.15---Classroom 
+   11.15 to 12.15---ActionClass
+   12.15 to 12.30---Classroom
+
+
+
+
+
+
+WebTable:
+========
+    <table>
+	   <tbody> 
+	     <tr>  ->tablerow
+		   <th> ->tableheader
+		   </th>
+		 </tr>
+		 <tr>
+		    <td> ->tabledata
+		    </td>
+			<td>
+		    </td>
+			<td>
+		    </td>
+		 </tr>
+	   
+	   </tbody>
+	
+	
+	</table>	
+	
+	
+	Advanced User Interactions:
+===========================
+    -mouse Actions
+
+mouseHover
+draganddrop
+clickandhold
+scrolldown
+
+  Actions class
+  1)moveToElement()->mousehover
+  2)draganddropBy()->ele,x,y
+  3)draganddrop()->source,dest
+  4)contextClick()->rightClick
+  5)doubleClick()->doubleClick
+  6)scrollToElement()-scroll
+  7)clickandhold()
+  
