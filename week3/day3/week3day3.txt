@@ -1,0 +1,119 @@
+Agenda for Today:
+   9.30 to 9.40  ---Recap
+   9.40 to 10.20 ---ActionClass
+   10.20 to 10.40---Frame 
+   10.40 to 11.15---Classroom
+   11.15 to 12.10---Alert
+   12.10 to 12.30--- Classroom
+
+	Advanced User Interactions:
+===========================
+    -mouse Actions
+
+mouseHover
+draganddrop
+clickandhold
+scrolldown
+
+syntax:Actions builder= new Actions(driver);
+
+
+  Actions class
+  1)moveToElement()->mousehover
+  2)draganddropBy()->ele,x,y
+  3)draganddrop()->source,dest
+  4)contextClick()->rightClick
+  5)doubleClick()->doubleClick
+  6)scrollToElement()-scroll
+  7)clickandhold()
+
+
+
+
+
+Frame:
+
+-HTML element that helps developers to organize the set of elements
+
+-iframe (tag) that means it is in-line frame(frame/ frameset)
+
+NoSuchElement:
+
+-Either your locator is worng
+- or the element may be living inside the frame.
+
+    - index
+	- id or name
+	- WebElement
+
+exceptions:
+	
+NoSuchFrameException
+
+NoSuchElementException
+
+syntax:
+driver.switchto().frame();
+
+
+
+
+
+Alert:(Selenium webdriver)
+
+----Modal Dailog
+----Not inspectable (it is java script not a html code)
+
+Modal Dailog
+Types:
+1.Simple Alert(only one option)(ok)
+2.Confirm Alert(2 options)(yes/no or ok/cancle)
+3.Prompt Alert(text box+ 2 options)
+
+Methods in Alert:
+1.Accpet(positive action)----OK
+2.Dismiss(negative action)----CANCLE
+3.Sendkeys(types values in it)-----always clear before type 
+4.GetText
+
+
+
+
+
+Characteristics:
+	1. Cannot inspect an alert
+	2. Cannot interact with the main window unless the alert is handled
+
+
+Limitation:
+-- you cannot take snapshot of the alert
+
+Exception:
+-- if you try interacting with DOM element without closing alert: UnhandledAlertException
+-- if you areinteracting with analert through code butalert did not appear: NoAlertPresentException
+
+
+non-modalD Dailog
+
+Sweet Alert:
+--can able inspect
+
+
+
+Frame:
+
+-HTML element that helps developers to organize the set of elements
+
+-iframe (tag) that means it is in-line frame(frame/ frameset)
+
+NoSuchElement:
+
+-Either your locator is worng
+- or the element may be living inside the frame.
+
+    - index
+	- id or name
+	- WebElement
+	
+NoSuchFrameException
+NoSuchElementException
