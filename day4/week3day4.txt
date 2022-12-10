@@ -1,0 +1,36 @@
+Agenda for Today:
+   9.30  to 9.40  ---Recap
+   9.40  to 10.00 ---doubleclick,selectble
+   10.00 to 11.00 ---WindowHandling
+   11.00 to 11.30 ---Classroom
+   11.30 to 12.00 --- this,super & Constructor
+   12.00 to 12.30 --- Shadowdom & JavaScriptClick
+   
+   
+   
+Window Handling:
+----------------
+To locate the window -> Selenium WebDriver gives an unique reference
+
+How to get the reference of window?
+------------------------------------
+getWindowHandle() -> to get the refernce of current window ; return String
+getWindowHandles() -> to get all the window references ; return Set<String>
+
+To get single data from Set:
+-----------------------------
+1. Convert the Set into List
+2. Use get(index) in List
+
+   
+   
+   
+   
+  Shadowdom: 
+   
+   <!-- https://mvnrepository.com/artifact/io.github.sukgu/automation -->
+<dependency>
+ <groupId>io.github.sukgu</groupId>
+ <artifactId>automation</artifactId>
+ <version>0.1.4.1</version>
+</dependency>
