@@ -1,0 +1,125 @@
+Today's Agenda:
+==============
+   1)9:30-10:30->TestNG Introduction
+   2)10:30-11:15->sequential,parallel
+   3)11:15:11:45->Classroom
+   4)11:45-12:25->Annotation
+   
+   TestNG-- Test Execution Framework
+   --support only java programming language
+   
+   TestNG---Test NEXT GENERATION
+   --comb of Junit and Nunit
+   -cedric
+   ----Junit
+     
+ 
+   
+ 
+   
+   why we going to framework?
+   
+   
+   
+Limitations:
+===========
+   1)One by One  
+       -Time Consuming 
+       -Same data
+       -Manually someone have to be present
+     Requirement:
+        -Run automatedly-Sequential,Parallel
+
+   2)Run for hardcoded data 
+       Requirement: 
+        -run for different data
+   
+   
+   
+   
+   3)There is no reporting
+      Requirement:
+        -Atleast basic reporting (passes,failed,skipped)
+		
+		
+	
+   4)There is no way to filter the tests to run 
+     Requirement:
+        -Group the desired testcases 
+
+   5)There is no way to rerun the failed testcases 
+     Requirement:
+        Automated retry
+		
+		
+		
+TestNG:
+======
+    -TestNG is an execution framework 
+	-No,it can run for any java based test
+	-minimal number of code + Full of configuration
+	
+	
+	
+	
+  2 Step Process:
+  ==============
+     -TestNG as a Plugin(to run as testng-xml file)
+     -TestNG as a Jar(To understand the TestNG-software)
+	 
+	 
+	 
+	 
+	 
+	 
+
+ Steps to run as TestNG:
+ ======================
+    1)Convert the main method to a normal method
+	   -remove static
+	   -remove arguments
+	2)Give a meaningful name to your method
+	
+	3)Add @Test at the top of the method and import it
+	
+	4)Run as TestNG
+
+
+
+
+
+
+ 
+How to generate testng.xml file?
+  --Select the testcases to run
+  --Right click and click TESTNG-CLick Convert to TestNG
+  --Generate the xml file and click finish
+  --Open the testng.xml file and Make sure to click the Source tab
+  --Run from the xml file
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   Annotations:
+
+@BeforeSuite - start report
+	@BeforeTest - Connecting to database
+		@BeforeClass - TC name, desc, author
+			
+				@BeforeMethod - Launch browser and login---perconditin
+					@Test (mandatory)
+				@AfterMethod - Close browser
+		@AfterClass
+	@AfterTest - Disconnecting database
+@AfterSuite - stop report
+
+
+STCM
+@Test
+MCTS
