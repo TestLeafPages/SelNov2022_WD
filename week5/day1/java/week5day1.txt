@@ -1,0 +1,126 @@
+
+Todays Agenda:
+==============
+   9.30-10:00-> Cucumber Introduction
+   10:00-10:30->Featurefile
+   10:30-10:50->Classroom(Featurefile)
+   10:50-11:10-->Break
+   11:10-11:50-> Step Definition & Runner
+   11:50-12:15->Classroom
+   12.15-12:30->pass multiple data
+   
+   
+Cucumber - BDD automation tool
+
+
+
+
+
+
+
+
+
+
+
+
+TDD - Test Driven Development
+------------------------------
+- Write the testcases first
+- Get the approval for the testcases
+- Development should be based on the testcases
+
+Cons:
+- Lot of negative testcases covered rather than positive testcases
+
+ATTD - Acceptance Test Driven Development:
+------------------------------------------
+- Write the acceptance testcases first
+- Develop the software based on the acceptance testcases
+
+Cons:
+ - Communication gap between the Technical and non technical team
+ 
+ 
+BDD - Behaviour Driven Development:
+-----------------------------------
+- To address the communication gap between tech and non tech team
+
+- Write acceptance testcases first using common language
+	- common language: understandable by both and tech and non tech team
+
+Cucumber - Ruby
+Cucumber - Java (Gherkins)
+SpecFlow - C#   (Gherkins)
+
+
+Gherkin Keywords:	
+------------------
+Feature     	Describes the functionality of an application (only once in the feature file)
+Scenario        Describe a behaviour / testcase (it can be multiple for a feature file)
+Given           Represent a pre condition
+When            Represent Test Condition / Step
+Then            Represent expected result (for positive scenario)
+But             Represent expected result (for negative scenario)
+Background      Describe a pre-condition for multiple scenarios (only once in the feature file)
+And             Represent to combine the above keyword based step
+
+
+
+
+
+
+
+
+
+3 Layers:
+----------
+Features            File to write the BDD Testcases (flat file)
+Step Definition     Implement the test step using Java/Selenium
+Runner              TestNG for execution
+
+
+2 
+1) Natural Plugin   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How to pass data from steps / parameterization:
+-----------------------------------------------
+- enclose the data within '' in the steps
+- replace the data with {string} in the StepDefinition
+- Create arguments in the method to get the input
+- Replace the hard coded data with variable
+
+How to pass multiple data set to a Scenario:
+---------------------------------------------
+- Use Gherkin keyword "Scenario Outline"
+- Examples should follow Scenario Outline
+- First row after Examples is the column hearder
+- All the informations should be enclosed within ||
+- Second row onwards mention data within ||
+- Replace the data with <column name> in the steps				  
+
