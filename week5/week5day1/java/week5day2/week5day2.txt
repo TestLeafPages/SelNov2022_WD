@@ -1,0 +1,24 @@
+  
+  Todays Agenda:
+==============
+   9.30-09:45-> Recap
+   9:45-11.00->Hooks Implementation
+   11:00-11:45->Classroom+Break
+   11:45-12:15-->Tags
+   12.15-12:30->Classroom
+  
+  
+Hooks Implementation:
+=====================
+   @Before - To have the common pre conditions
+   @After - To have the post conditions 
+   
+Steps:
+=======
+  1)Write feature file for CreateLead
+  2)Pass multiple data for createLead using Scenario Outline
+  3)Write StepDefintion for CreateLead
+  4)Create BaseClass and put all the pre conditions(Launch,Load url) using @BeforeMethod,AfterMethod
+  5)StepdDefinitions should extend BaseClass
+  6)Runner class should extend BaseClass
+  7)BaseClass should extend AbstractTestNGCucumberTests  
