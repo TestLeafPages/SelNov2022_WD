@@ -1,0 +1,63 @@
+
+Todays Agenda:
+===============
+   9:30-9:45->  Recap 
+   9:45-10:20-> Static Parameterize 
+   10:20-11:00-> Dynamic Parameterize 
+   11:00-11:35-> class room + break
+   11:35-12:25->Exception Handling
+   12:25-12:30->Recap
+
+
+
+
+
+How to Parameterize the data?
+	  1)Create a new package(utils) and copy the ReadExel class from the previous project 
+	  and paste it here
+	  2)Create a data folder and create xcel sheets
+	  3)Declare the ExcelFileName globally
+	  4)Create a method for @DataProvider and call the ReadExel class
+	  5)Integrate @Test with dataProvider attribute
+	  6)Pass the inputs as arguments in the testcase method level and replace the hardcoded values
+	  7)In the testcase create a method to mention the ExcelFileName and annotate with @BeforeTest
+	  
+
+
+
+Exception Handling:
+===================
+ Exception-->abnormal condition which affect the execution flow
+ 
+ 
+ try-->actual code which may may not throw exception 
+ catch-->handle exception
+ finally
+
+
+Exception :
+Checked Exception -->Compiletime Exception
+
+throw -->Explicity
+throws-->
+
+
+
+
+Unchecked Exception-->Runtime exceptions
+
+All selenium exception-->Nosuch Element
+						StaleElement
+						ElementclickInterception
+						NullPointer
+						ArithmeticException
+						
+
+try catch
+try catch catch-->Multiple Catches
+try -->nested try catch block
+  try catch
+ catch
+ 
+try catch finally
+try finally

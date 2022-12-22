@@ -1,0 +1,82 @@
+Todays Agenda:
+===============
+   9:30-10:15->POM introduction
+   10:15-10:50->POM DEsign
+   10:50-11:35->Classroom
+   11:35-12:10->run in Parallel execution
+   12:10-12:25->Classroom
+   12:25-12:20->Recap
+   
+POM:
+===============
+
+what is POM?
+pom.xml--->project object model
+
+
+POM--> Page Object Model  
+
+POM is framework or not?
+its not framework
+POM is design pattern
+
+       pom.xml->project object model
+	  
+
+	  POM->Page Object Model
+	   
+	 -Page Object Model is a design pattern to build your framework
+Framework:
+==========
+  It is a collection of multiple testcases 
+
+Advantages:
+===========
+    -easy maintenance
+	-Increased Productivity
+	-Maintain the uniformity
+	-Reduce the duplicate code
+	-Better HTMl report
+
+
+Steps to Implement PageObjectModel:
+==================================
+   1)Create a separate Project for POM
+   2)Add all the dependencies in the pom.xml
+   3)Create 3 packages (base,pages,runner)
+   4)Inside base package create a BaseClass
+   5)Inside the BaseClass have preCondition and PostCOndition(Load the url)
+   6)Inside the pages package create 6 pages
+       -LoginPage
+	   -WelcomePage
+	   -MyHomePage
+	   -MyLeadsPage
+	   -CreateLeadPage
+	   -ViewLeadPage
+   7)Make sure all the pages should extend your BaseClass
+   8)For each Pages create separate methods and put the codes for each of your action
+   9)Finally add the return statement
+        -If the control stays  in the same page return this and change the return type
+        -If the control moves to another page then add return statement according to it
+		
+		
+		Chromedriver 1--jsie8e9cn@fxmmkzk
+		chromedriver 2-- uohkdfji78u39jdAQ@
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+Reason:
+-Because of static driver
+  The browser which is last opened at last(latest session-id)
+Steps to implement parallel execution:
+======================================
+   1)Remove static in the baseclass
+   2)Create a Constructor in all the pages with Chromedriver as argument
+   3)And pass the driver in all the constructor call
