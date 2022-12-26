@@ -1,0 +1,98 @@
+Todays Agenda:
+===============
+   9:30-9:45->  Recap 
+   9:45-10:45-> ThreadLocal Concept (TestNG & Cucumber)
+   10:45-11:20-> class room + break
+   11:20-12:10-> Extent Report
+   12:10-12:30->class room 
+   12:30-12:35->Recap
+   
+   
+ThreadLocal Concept:
+=========================
+As the constructor call is not allowed in cucumber 
+
+To acheive parallel execution without constructor in cucumber
+
+Add ThreadLocalclass in Basecall method
+
+
+private static final ThreadLocal<RemoteWebDriver> tldriver=new ThreadLocal<RemoteWebDriver>(
+	
+	
+	public void setDriver() {
+		tldriver.set(new ChromeDriver());
+	}
+	
+	public RemoteWebDriver getDriver() {
+		return tldriver.get();
+	}
+
+add setDriver() method to @BeforeMethod
+
+Remove the constructor from all the pages
+
+Change the driver to getDriver() in all the actions in the pages 
+
+
+
+
+
+
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>extentreports</artifactId>
+			<version>3.1.5</version>
+		</dependency>
+		
+	
+	
+Extent Report
+==========
+-->Thrid Party API /framework from a avenstack(class)
+-->To get the report with 
+summary, 
+graphs ,
+scrennshots
+we can have category,author,...
+
+ExtentHtmlreporter
+ExtentReports
+attach reporter
+ExtentTest
+mediaenititybuilder
+
+Steps:
+======
+1.Setup Physical report path
+2.Create object for extentreports
+3.Attach data with phusical file
+4.Create a testcase and assigned test details
+5.Steps level status
+6.Mandatory step to stop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@Beforesuite-->report
+	@BeforeTest-->collected details of the testcase 
+		@BeforeClass-->add this details to the report
+			@Dataprovider
+			@BeforeMethod
+				@Test
